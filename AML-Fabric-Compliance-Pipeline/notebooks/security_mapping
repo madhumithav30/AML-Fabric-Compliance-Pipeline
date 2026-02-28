@@ -1,0 +1,8 @@
+# Create the security mapping table in Spark (Notebook)
+mapping_data = [("madhumitha.v@camsonline.com", "Chennai")] 
+mapping_schema = ["AuditorEmail", "AssignedDistrict"]
+
+spark.createDataFrame(mapping_data, mapping_schema) \
+     .write.format("delta").mode("overwrite").saveAsTable("Security_Mapping")
+
+print("Security_Mapping table created. Now go to SQL Endpoint.")
