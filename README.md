@@ -66,12 +66,11 @@ The final stage identifies high-risk "Smurfing" patterns. Row-Level Security ens
 ├── sql/                # RLS Functions and Security Policies (T-SQL)
 ├── design docs/        # Architecture diagrams and Screenshots
 └── README.md           # Documentation
+```
 
+## Lets Connect !
 
----
-##  Let's Connect!
-
-[![LinkedIn]](www.linkedin.com/in/madhumithaviswanathan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/madhumithaviswanathan)
 
 **Role:**  Data Engineer | Microsoft Fabric Certified  
 **Focus:** Enterprise Data Architecture & Financial Compliance
